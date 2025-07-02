@@ -135,7 +135,6 @@ class TunaSwarmOptimization:
         self.max_iterations = 60
         
     def select_players(self) -> List[Dict]:
-        # Sort players by value for money (performance/cost ratio)
         self.players.sort(key=lambda x: x["Performance_Score"] / x["Cost"], reverse=True)
         
         best_solution = None
