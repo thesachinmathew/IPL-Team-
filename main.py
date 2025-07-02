@@ -121,7 +121,6 @@ class SalpChainOptimization:
             "Pacer": 1.0
         }
         
-        # Add some randomness but keep it realistic
         final_cost = base_cost * role_multiplier.get(player["Role"], 1.0)
         
         # Ensure costs are within reasonable bounds (2-15 crores)
