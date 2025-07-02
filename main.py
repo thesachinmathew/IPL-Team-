@@ -5,7 +5,6 @@ import os
 from typing import List, Dict, Tuple
 import json
 
-# IPL Players Data with Uniform Ranking Distribution
 ipl_players = [
     # Chennai Super Kings (CSK)
     {"Name": "Ruturaj Gaikwad", "Role": "Top-order Batsman", "Team": "CSK", "Ranking": 45},
