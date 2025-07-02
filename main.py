@@ -15,7 +15,6 @@ ipl_players = [
     {"Name": "Matheesha Pathirana", "Role": "Pacer", "Team": "CSK", "Ranking": 85},
     {"Name": "Shivam Dube", "Role": "Middle-order Batsman", "Team": "CSK", "Ranking": 62},
 
-    # Mumbai Indians (MI)
     {"Name": "Rohit Sharma", "Role": "Top-order Batsman", "Team": "MI", "Ranking": 93},
     {"Name": "Ishan Kishan", "Role": "Wicketkeeper", "Team": "MI", "Ranking": 41},
     {"Name": "Suryakumar Yadav", "Role": "Middle-order Batsman", "Team": "MI", "Ranking": 88},
