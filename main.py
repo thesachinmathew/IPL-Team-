@@ -40,7 +40,6 @@ ipl_players = [
     {"Name": "Trent Boult", "Role": "Pacer", "Team": "RR", "Ranking": 78},
     {"Name": "Shimron Hetmyer", "Role": "Middle-order Batsman", "Team": "RR", "Ranking": 57},
 
-    # Lucknow Super Giants (LSG)
     {"Name": "KL Rahul", "Role": "Top-order Batsman", "Team": "LSG", "Ranking": 94},
     {"Name": "Nicholas Pooran", "Role": "Wicketkeeper", "Team": "LSG", "Ranking": 47},
     {"Name": "Marcus Stoinis", "Role": "All-Rounder", "Team": "LSG", "Ranking": 50},
