@@ -22,7 +22,6 @@ ipl_players = [
     {"Name": "Gerald Coetzee", "Role": "Pacer", "Team": "MI", "Ranking": 53},
     {"Name": "Hardik Pandya", "Role": "All-Rounder", "Team": "MI", "Ranking": 72},
 
-    # Royal Challengers Bengaluru (RCB)
     {"Name": "Virat Kohli", "Role": "Top-order Batsman", "Team": "RCB", "Ranking": 95},
     {"Name": "Faf du Plessis", "Role": "Top-order Batsman", "Team": "RCB", "Ranking": 86},
     {"Name": "Glenn Maxwell", "Role": "All-Rounder", "Team": "RCB", "Ranking": 76},
