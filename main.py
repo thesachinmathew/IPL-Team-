@@ -31,7 +31,6 @@ ipl_players = [
     {"Name": "Reece Topley", "Role": "Pacer", "Team": "RCB", "Ranking": 44},
     {"Name": "Cameron Green", "Role": "All-Rounder", "Team": "RCB", "Ranking": 73},
 
-    # Rajasthan Royals (RR)
     {"Name": "Sanju Samson", "Role": "Wicketkeeper", "Team": "RR", "Ranking": 71},
     {"Name": "Jos Buttler", "Role": "Top-order Batsman", "Team": "RR", "Ranking": 84},
     {"Name": "Yashasvi Jaiswal", "Role": "Top-order Batsman", "Team": "RR", "Ranking": 90},
