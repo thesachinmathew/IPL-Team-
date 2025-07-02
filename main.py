@@ -57,7 +57,6 @@ ipl_players = [
     {"Name": "Rahul Tripathi", "Role": "Middle-order Batsman", "Team": "SRH", "Ranking": 49},
     {"Name": "Washington Sundar", "Role": "Spinner", "Team": "SRH", "Ranking": 64},
 
-    # Punjab Kings (PBKS)
     {"Name": "Shikhar Dhawan", "Role": "Top-order Batsman", "Team": "PBKS", "Ranking": 89},
     {"Name": "Jitesh Sharma", "Role": "Wicketkeeper", "Team": "PBKS", "Ranking": 74},
     {"Name": "Liam Livingstone", "Role": "All-Rounder", "Team": "PBKS", "Ranking": 81},
