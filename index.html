@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Team Generator 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="particles-background"></div>
+        
+        <div class="header">
+            <h1 class="main-title">IPL Team Generator</h1>
+            <p class="subtitle">AI-Powered Bio-Inspired Team Selection System</p>
+        </div>
+        
+        <div class="algorithm-card">
+            <h3>🧠 Powered by Advanced AI Algorithms</h3>
+            <div class="algorithm-list">
+                <div class="algorithm-item">
+                    <span class="algorithm-name">Salp Chain Optimization</span>
+                    <span class="algorithm-desc">Performance Enhancement</span>
+                </div>
+                <div class="algorithm-item">
+                    <span class="algorithm-name">Tuna Swarm Optimization</span>
+                    <span class="algorithm-desc">Budget-Aware Selection</span>
+                </div>
+                <div class="algorithm-item">
+                    <span class="algorithm-name">Remora Optimization</span>
+                    <span class="algorithm-desc">Role Balance</span>
+                </div>
+            </div>
+        </div>
+        
+        <form class="team-form" id="teamForm">
+            <div class="form-group">
+                <label for="team">Select IPL Team:</label>
+                <select id="team" name="team" required>
+                    <option value="ALL">All Teams (Mixed Squad)</option>
+                    <option value="CSK">Chennai Super Kings (CSK)</option>
+                    <option value="MI">Mumbai Indians (MI)</option>
+                    <option value="RCB">Royal Challengers Bengaluru (RCB)</option>
+                    <option value="RR">Rajasthan Royals (RR)</option>
+                    <option value="LSG">Lucknow Super Giants (LSG)</option>
+                    <option value="SRH">Sunrisers Hyderabad (SRH)</option>
+                    <option value="PBKS">Punjab Kings (PBKS)</option>
+                    <option value="KKR">Kolkata Knight Riders (KKR)</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="budget">Total Budget:</label>
+                <div class="budget-container">
+                    <input type="range" id="budget" name="budget" min="50" max="150" value="90" step="5">
+                    <div class="budget-display">₹<span id="budgetValue">90</span> Crores</div>
+                </div>
+            </div>
+            
+            <button type="submit" class="generate-btn">
+                <span class="btn-text">Generate Best Team</span>
+                <div class="btn-loader"></div>
+            </button>
+        </form>
+        
+        <div class="loading-overlay" id="loadingOverlay">
+            <div class="loading-content">
+                <div class="spinner"></div>
+                <h3>Generating Your Perfect Team</h3>
+                <div class="loading-steps" id="loadingSteps">
+                    <div class="step">🔄 Applying Salp Chain Optimization...</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="results" class="results-section"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
