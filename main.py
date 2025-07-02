@@ -6,7 +6,6 @@ from typing import List, Dict, Tuple
 import json
 
 ipl_players = [
-    # Chennai Super Kings (CSK)
     {"Name": "Ruturaj Gaikwad", "Role": "Top-order Batsman", "Team": "CSK", "Ranking": 45},
     {"Name": "MS Dhoni", "Role": "Wicketkeeper", "Team": "CSK", "Ranking": 91},
     {"Name": "Ravindra Jadeja", "Role": "All-Rounder", "Team": "CSK", "Ranking": 58},
