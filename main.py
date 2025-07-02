@@ -46,7 +46,6 @@ ipl_players = [
     {"Name": "Krunal Pandya", "Role": "All-Rounder", "Team": "LSG", "Ranking": 43},
     {"Name": "Deepak Hooda", "Role": "Middle-order Batsman", "Team": "LSG", "Ranking": 54},
 
-    # Sunrisers Hyderabad (SRH)
     {"Name": "Abhishek Sharma", "Role": "Top-order Batsman", "Team": "SRH", "Ranking": 80},
     {"Name": "Heinrich Klaasen", "Role": "Wicketkeeper", "Team": "SRH", "Ranking": 97},
     {"Name": "Aiden Markram", "Role": "Middle-order Batsman", "Team": "SRH", "Ranking": 82},
